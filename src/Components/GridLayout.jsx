@@ -8,6 +8,7 @@ function GridLayout() {
   const { query, activeTab,results } = useSelector((state) => state.search);
 
   useEffect(() => {
+    // Hello
     if (!query) return;
 
     const fetchData = async () => {
